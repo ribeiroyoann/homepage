@@ -1,0 +1,12 @@
+.headline {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+  font-weight: 400;
+  margin: 0;
+}
+
+.underline {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  margin: 0;
+}
