@@ -70,3 +70,5 @@ yarn-error.log
 
 #workspace file
 *.code-workspace
+
+srcbup/
