@@ -1,7 +1,5 @@
 import React from "react"
-// import { Link } from "gatsby"
 import styles from "./navbar.module.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../utils/fontawesome"
 import GitHub from "../../assets/icons/github.svg"
 import Mail from "../../assets/icons/mail.svg"
@@ -16,7 +14,10 @@ const NavLink = props => (
 export default () => (
   <div className={styles.navbar}>
     <NavLink to="https://www.github.com/ribeiroyoann" src={GitHub} />
-    <NavLink to="https://www.github.com/" src={LinkedIn} />
-    <NavLink to="mailto:ribeiroyoannn@gmail.com" src={Mail} />
+    <NavLink
+      to="https://www.linkedin.com/in/yoann-ribeiro-63545a1a0/"
+      src={LinkedIn}
+    />
+    <NavLink to="mailto:ribeiro.yoannn@gmail.com" src={Mail} />
   </div>
 )

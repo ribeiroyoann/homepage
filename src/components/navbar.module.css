@@ -5,10 +5,11 @@
 }
 
 .navbar img {
-  width: 3rem;
-  height: 3rem;
+  width: 3.3rem;
+  height: 3.3rem;
   fill: var(--text-color);
   padding: 0.75rem;
+  margin-right: 40px;
 }
 
 .navbar a {

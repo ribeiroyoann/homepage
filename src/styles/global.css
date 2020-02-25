@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(255, 247, 250);
+  background-color: rgb(250, 247, 248);
 }
 
 /* * {
@@ -11,7 +11,7 @@ body {
 }
 
 * {
-  --primary-color: #dc2df3;
+  --primary-color: #ff2b3c;
   --text-color-light: #d4d4d4;
   --text-color: #4a4a4a;
 }

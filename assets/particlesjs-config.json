@@ -1,14 +1,14 @@
 {
   "particles": {
     "number": {
-      "value": 15,
+      "value": 20,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#dc2df3"
+      "value": "#ff2b3c"
     },
     "shape": {
       "type": "circle",
@@ -17,7 +17,7 @@
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 3
       },
       "image": {
         "src": "img/github.svg",
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 3,
+      "value": 4,
       "random": true,
       "anim": {
         "enable": false,
@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 0.7,
       "direction": "none",
       "random": true,
       "straight": false,
@@ -72,10 +72,10 @@
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "bubble"
+        "mode": "grab"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "resize": true
